@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Condiment&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -15,10 +17,15 @@ body{
 .corpo h1{
     color: white;
     text-align: center;
+    font-family: "Condiment", cursive;
+    font-size: 1.5em;
 
 }
+.corpo h1>span{
+    font-size: 1.5em;
+}
 .corpo p{
-    
+    font-family: 'Courier New', Courier, monospace;
     background-color: rgba(255, 194, 194, 0.545);
     width: 60vw;
     padding: 10px;

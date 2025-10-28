@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background-color: black;
+}
+.corpo{
+    position: relative;
+    background-image: linear-gradient(to top, black,red,black);
+    min-height: 85vh;
+}
+.marcos{
+    position: absolute;
+    width: 200px;
+    bottom: 0;
+    z-index: 10;
+}
+.crf{
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 0.4;
+
+}

@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-image: linear-gradient(to top, black, red);
+}
+.tresrisco{
+   
+    height: 120px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 10px;
+}
+.tresrisco div{
+    background-color: rgb(0, 0, 0);
+    width: 45px;
+    align-self: stretch;
+    
+}
+
+.tresriscobottom{
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+   
+    height: 120px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 10px;
+}
+.tresriscobottom div{
+    background-color: rgb(0, 0, 0);
+    width: 45px;
+    align-self: stretch;
+    
+} /* risco*/
+
+.crf{
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+
+.envelope{
+    position: absolute;
+    top: 260px;
+    left: 50%;
+    transform: translate(-50%);
+  
+    
+    
+    
+}
+@keyframes brilhar{
+    0%,100%{
+         box-shadow: 0px 0px 0px white;
+    }
+    50%{
+         box-shadow: 0px 0px 50px white;
+    }
+}
+.envelope img{
+    width: 350px;
+    animation: brilhar 5s linear infinite;
+
+}
+
+.envelope a{
+    display: block;
+    position: absolute;
+    background-color: white;
+    padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: black;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 0 0 10px black;
+}
+.envelope p{
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    text-shadow: 
+    1px 1px black,
+    -1px -1px black,
+    1px -1px black,
+    -1px 1px black;
+}

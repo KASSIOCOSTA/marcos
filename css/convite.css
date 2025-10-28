@@ -51,3 +51,28 @@ body{
     opacity: 0.4;
 
 }
+.botao{
+ 
+    position: absolute;
+    right: 10px;
+    bottom: 50px;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    
+}
+.botao a{
+    background-color: blanchedalmond;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, red,black);
+
+}
+
+@keyframes brilho{
+    0%,25%{
+        
+    }
+}

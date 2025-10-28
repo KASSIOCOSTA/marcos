@@ -9,7 +9,25 @@ body{
 .corpo{
     position: relative;
     background-image: linear-gradient(to top, black,red,black);
-    min-height: 85vh;
+    min-height: 90vh;
+    overflow: hidden;
+}
+.corpo h1{
+    color: white;
+    text-align: center;
+
+}
+.corpo p{
+    
+    background-color: rgba(255, 194, 194, 0.545);
+    width: 60vw;
+    padding: 10px;
+    line-height: 2em;
+    margin: 0 auto;
+    border-radius: 15px;
+    text-shadow: 0 0 10px white;
+    
+
 }
 .marcos{
     position: absolute;
